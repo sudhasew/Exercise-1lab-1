@@ -2,12 +2,17 @@ body {
   margin: 5px;
   font-size: 15px;
   padding: 10px;
+  background-color: #f9fafc;
   height: 150vh;
   font-family: "Open Sans", sans-serif;
 }
 h1 {
   font-size: 15px;
-  margin: 5px;
+  margin-top: 5px;
+  margin-left: 5px;
+  margin-bottom: 5px;
+  padding-left: 0px;
+  padding-bottom: 5px;
 }
 
 a {
@@ -17,6 +22,8 @@ a {
 
 ul {
   list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 .company {
@@ -27,11 +34,11 @@ ul {
 .nav-list {
   list-style: none;
   display: flex;
+  padding-bottom: 5px;
 }
 
 .link {
   text-decoration: none;
-  color: #7944e6;
   padding: 5px;
 }
 
@@ -39,10 +46,7 @@ ul {
   text-decoration: none;
   color: #69696a;
   display: flex;
-}
-ul {
-  margin: 0;
-  padding: 0;
+  margin-bottom: 5px;
 }
 .nav-list {
   display: flex;
@@ -51,12 +55,12 @@ ul {
 
 .hireus,
 .calltoaction {
-  background-color: black;
+  background-color: #000;
   display: block;
   text-align: center;
   border-radius: 20px;
   padding: 10px;
-  color: white;
+  color: #fff;
 }
 
 .para {
@@ -66,7 +70,6 @@ ul {
 }
 .footer h4 {
   color: #000;
-  font-weight: bold;
   padding-left: 10px;
 }
 
@@ -87,7 +90,7 @@ ul {
 
 .footer-nav-list {
   display: flex;
-  padding: 12px;
+  padding: 10px;
   margin: auto;
 }
 

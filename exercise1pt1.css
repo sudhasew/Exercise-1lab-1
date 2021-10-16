@@ -1,0 +1,98 @@
+body {
+  margin: 5px;
+  font-size: 15px;
+  padding: 10px;
+  font-family: "Open Sans", sans-serif;
+}
+h1 {
+  font-size: 15px;
+  margin: 5px;
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+}
+
+.company {
+  color: #000;
+  text-align: left;
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+}
+
+.link {
+  text-decoration: none;
+  color: #7944e6;
+  padding: 5px;
+}
+
+.nav-item {
+  text-decoration: none;
+  color: #69696a;
+  display: flex;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+.nav-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.hireus,
+.calltoaction {
+  background-color: black;
+  display: block;
+  text-align: center;
+  border-radius: 20px;
+  padding: 10px;
+  color: white;
+}
+
+.para {
+  border-left: 3px solid #69696a;
+  padding-left: 10px;
+  color: #69696a;
+}
+.footer h4 {
+  color: #000;
+  font-weight: bold;
+  padding-left: 10px;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(247, 193, 162, 0.7);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #69696a;
+  padding-left: 5px;
+  box-sizing: border-box;
+  line-height: 2px;
+}
+
+.footer-nav-list {
+  display: flex;
+  padding: 12px;
+  margin: auto;
+}
+
+.footer-nav-list a {
+  color: #69696a;
+  padding-right: 5px;
+  padding-left: 5px;
+}

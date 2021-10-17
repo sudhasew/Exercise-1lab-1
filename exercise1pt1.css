@@ -6,12 +6,12 @@ body {
   height: 150vh;
   font-family: "Open Sans", sans-serif;
 }
+
 h1 {
   font-size: 15px;
   margin-top: 5px;
   margin-left: 5px;
   margin-bottom: 5px;
-  padding-left: 0px;
   padding-bottom: 5px;
 }
 
@@ -48,6 +48,7 @@ ul {
   display: flex;
   margin-bottom: 5px;
 }
+
 .nav-list {
   display: flex;
   flex-direction: column;
@@ -68,6 +69,7 @@ ul {
   padding-left: 10px;
   color: #69696a;
 }
+
 .footer h4 {
   color: #000;
   padding-left: 10px;

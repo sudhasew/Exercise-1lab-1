@@ -1,18 +1,12 @@
-body {
+body,
+h1 {
   margin: 5px;
   font-size: 15px;
-  padding: 10px;
-  background-color: #f9fafc;
-  height: 150vh;
-  font-family: "Open Sans", sans-serif;
 }
 
-h1 {
-  font-size: 15px;
-  margin-top: 5px;
-  margin-left: 5px;
-  margin-bottom: 5px;
-  padding-bottom: 5px;
+body {
+  padding: 10px;
+  font-family: "Open Sans", sans-serif;
 }
 
 a {
@@ -22,8 +16,6 @@ a {
 
 ul {
   list-style: none;
-  margin: 0;
-  padding: 0;
 }
 
 .company {
@@ -34,7 +26,6 @@ ul {
 .nav-list {
   list-style: none;
   display: flex;
-  padding-bottom: 5px;
 }
 
 .link {
@@ -46,12 +37,16 @@ ul {
   text-decoration: none;
   color: #69696a;
   display: flex;
-  margin-bottom: 5px;
 }
 
 .nav-list {
   display: flex;
   flex-direction: column;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
 }
 
 .hireus,
@@ -64,7 +59,7 @@ ul {
   color: #fff;
 }
 
-.para {
+.description {
   border-left: 3px solid #69696a;
   padding-left: 10px;
   color: #69696a;
@@ -84,7 +79,6 @@ ul {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  color: #69696a;
   padding-left: 5px;
   box-sizing: border-box;
   line-height: 2px;
@@ -98,6 +92,5 @@ ul {
 
 .footer-nav-list a {
   color: #69696a;
-  padding-right: 5px;
-  padding-left: 5px;
+  padding: 5px;
 }

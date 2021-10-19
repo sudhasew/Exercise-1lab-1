@@ -124,14 +124,14 @@ ul {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    padding-right: 0;
+    padding-right: 20px;
   }
   .circle-container {
     position: relative;
     align-items: center;
     justify-content: space-between;
     margin: 0px 20px 0px 20px;
-    padding: 5px 20px 0px 20px;
+    padding-right: 20px;
   }
   .small {
     border-radius: 50%;
